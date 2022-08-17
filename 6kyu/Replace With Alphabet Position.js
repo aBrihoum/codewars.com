@@ -23,6 +23,8 @@ function alphabetPosition(text) {
     return t ? t.map(x => (x = x.charCodeAt() - 96)).join(" ") : ''
 }
 
+alphabetPosition("The sunset sets at twelve o' clock.")
+
 
 //  ~~~~ newbie SOLUTION ~~~~ :
 

@@ -19,7 +19,7 @@ function solution(number) {
     }
     return [...set].reduce((a, b) => a + b, 0)
 }
-// solution(10)
+solution(10)
 
 //  ~~~~ newbie SOLUTION ~~~~ :
 
