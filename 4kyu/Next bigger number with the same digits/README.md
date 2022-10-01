@@ -42,10 +42,10 @@ See the `.js` file
 
 From right to left, if i>i+1, we swap their place in the array
 
-![attempt1](https://img001.prntscr.com/file/img001/CLyY5mIcTrSnRY3ee7FcTg.jpeg)
+<img width="400" src="https://img001.prntscr.com/file/img001/CLyY5mIcTrSnRY3ee7FcTg.jpeg">
 
 #### My second attempt
 
 from right to left, we move the last number to its left, if the new number > the original, break
 
-![attempt2](https://img001.prntscr.com/file/img001/lkoXWJGtSlys0J5ohIJNnQ.jpeg)
+<img width="600" src="https://img001.prntscr.com/file/img001/lkoXWJGtSlys0J5ohIJNnQ.jpeg">
