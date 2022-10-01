@@ -1,6 +1,8 @@
-/*
-src : https://www.codewars.com/kata/55b42574ff091733d900002f
-Instructions :
+# Friend or Foe?
+
+> https://www.codewars.com/kata/55b42574ff091733d900002f
+
+## Description
 
 Make a program that filters a list of strings and returns a list with only your friends name in it.
 
@@ -10,15 +12,12 @@ Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 
 i.e.
 
+```
 friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+```
+
 Note: keep the original order of the names in the output.
 
-*/
+## Solution
 
-//  ~~~~~~~~ SOLUTION ~~~~~~~~ :
-
-function friend(friends) {
-    return friends.filter(x => x.length === 4)
-}
-
-friend(["Ryan", "Kieran", "Mark"])
+See the `.js` file

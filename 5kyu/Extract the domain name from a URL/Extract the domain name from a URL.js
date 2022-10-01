@@ -1,3 +1,5 @@
+//  ~~~~~~~~ SOLUTION ~~~~~~~~ : 
+
 function domainName(url) {
     return (/^(?:https?:\/\/)?(?:www[0-9]*\.)?(.*?)\./gm).exec(url)[1]
 }
